@@ -1,0 +1,9 @@
+[remote "upstream"]
+	url = git@github.com:atul-g/plasma-power-monitor.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[remote "multi-batt"]
+	url = git@github.com:Hack64/plasma-power-monitor.git
+	fetch = +refs/heads/*:refs/remotes/multi-batt/*
+[remote "MaarifaMaarifa"]
+	url = git@github.com:MaarifaMaarifa/plasma-power-monitor.git
+	fetch = +refs/heads/*:refs/remotes/MaarifaMaarifa/*
