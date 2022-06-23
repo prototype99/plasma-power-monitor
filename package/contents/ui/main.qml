@@ -20,6 +20,7 @@ import QtQuick.Layouts 1.1
 import org.kde.plasma.components 3.0 as PlasmaComponents
 import org.kde.plasma.plasmoid 2.0
 
+qputenv("QML_XHR_ALLOW_FILE_READ", QByteArray("1"));
 
 Item {
     id: main
